@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="dh.gw.httpserver.ui.HttpServerActivity">
+
+    <TextView
+        android:id="@+id/serverStatus"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:text="status will be displayed here!" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id = "@+id/bindServer"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="Bind" />
+        <Button
+            android:id = "@+id/sendCommand"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="Command" />
+        <Button
+            android:id = "@+id/unbindServer"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="Unbind" />
+        <Button
+            android:id = "@+id/stopServer"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="Stop" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/httpRequest"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@null"
+        android:hint="input http request url!"
+        android:inputType="textMultiLine"
+        android:gravity="top"
+        android:singleLine="false"
+        android:textSize="13dp"
+        android:scrollHorizontally="false" />
+    <Button
+        android:id = "@+id/sendHttpRequest"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Http_Request" />
+</LinearLayout>

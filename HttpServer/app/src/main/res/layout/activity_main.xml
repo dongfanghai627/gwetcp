@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="dh.gw.httpserver.ui.MainActivity">
+
+    <Button
+        android:id = "@+id/lunchHttpServer"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="HTTP_SERVER" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="B2" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="B3" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="B4" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="B5" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="B6" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="B7" />
+
+
+</LinearLayout>
